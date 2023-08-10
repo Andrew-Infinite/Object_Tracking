@@ -7,3 +7,5 @@ this was viable only because it was a static camera.
 
 The algorithm basically works like this:
     yolo detection + frame_diff detection -> nms filter -> template matching to find tag -> object tracking with DeepSORT
+
+It was only able to run about 10fps during template matching, and 3.5fps during DeepSORT tracking.
